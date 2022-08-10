@@ -23,7 +23,7 @@
 <div id="login_wrap" class="wrap">
     <div>
         <h1>Login</h1>
-        <form action="authentication.php" method="post" id="login_form">
+        <form action="authentication.php" method="post" id="login_form" class="form">
             <p>
                 <input type = "text" id ="user" name  = "user" placeholder="UserID"/>  
             </p>

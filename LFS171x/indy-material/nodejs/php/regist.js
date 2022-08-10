@@ -106,6 +106,8 @@ const sendit = () => {
     }
 	// 유효성 검사 정상 통과 시 true 리턴 후 form 제출.
     return true;
+
+    
 }
 
 const checkId = () => {
@@ -144,6 +146,8 @@ const checkId = () => {
                     userid.addEventListener("keydown", function(){
                         result.style.display = "none";
                     });
+                    return userid.value = '';
+                    
                 }
             }
         }
